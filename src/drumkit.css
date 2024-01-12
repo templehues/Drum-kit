@@ -3,3 +3,24 @@ html {
   background: url("/src/images/drumkit-background.jpg") bottom center;
   background-size: cover;
 }
+
+:root {
+  --primary-color: #885585;
+  --secondary-color: #d3758b;
+  --tertiary-color: #373c70;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
