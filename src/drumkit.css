@@ -38,3 +38,21 @@ html {
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 0.5rem black;
 }
+
+.playing {
+  transform: scale(1.1);
+  border-color: var(--tertiary-color);
+  box-shadow: 0 0 1rem var(--tertiary-color);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--tertiary-color);
+}
